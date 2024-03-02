@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:wght@200;300;400&display=swap');
+body{
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: #5a0000;
+    color: white;
+    font-family: 'Encode Sans Condensed', sans-serif;
+
+}
+
+.container{
+    flex-direction: column;
+    background-color: rgb(5, 14, 22);
+    padding: 100px;
+}
+#recuerda{
+
+    display: flex;
+    
+
+}
+
+#leocode{
+    text-align: center;
+    
+    font-size: 50px;
+}
+
+input{
+    border: none;
+
+    
+}
+.rellenar{
+    width: 300px;
+    background-color:rgb(23, 37, 63) ;
+    height: 40px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+    color: #5419f5;
+    position: absolute; 
+    bottom: 50px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    
+}
+button{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 50px;
+    background-color: rgb(182, 0, 0);
+    color: white;
+    border: none;
+    font-family: 'Encode Sans Condensed', sans-serif;
+
+}
+
+#recuerda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Estilos para el texto "Remember me" */
+#recuerda p {
+    color: white;
+    margin: 0;
+   
+}
+
+/* Estilos para el checkbox */
+#recuerda input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-right: 5px; /* Espacio entre el checkbox y el texto */
+}
+
+#recuerda input[type="checkbox"]::before {
+    content: ""; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+/* Estilos cuando el checkbox está marcado */
+#recuerda input[type="checkbox"]:checked::before {
+    content: "\2713";
+    font-size: 8px;
+    line-height: 10px;
+    text-align: center;
+    color: rgb(150, 37, 255);
+    background-color: transparent;
+}
+
