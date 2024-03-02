@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    
+}
+.hijo{
+    background-color: black;
+    padding: 100px;
+    display: flex;
+    gap: 30px;
+}
+
+.info{
+background: url(https://www.eltiempo.com/files/article_multimedia/uploads/2019/10/15/5da64f9a11291.jpeg);    
+    width: 400px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border: 10px solid rgb(254, 255, 184);
+  
+}
+
+.arriba {
+    display: flex;
+    ;
+
+}
+.abajo{
+    display: flex;
+    
+}
+
+#nombre{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+
+#d{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+button{
+    margin-left: 100px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+}

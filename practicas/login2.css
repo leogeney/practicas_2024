@@ -1,0 +1,47 @@
+
+body{
+    background: linear-gradient(90deg, yellow 10%, orange 90%);
+}
+
+.container{
+    
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.login{
+    text-align: center;
+    flex-direction: column;
+    background-color: darkslategrey;
+    padding: 150px;
+    border: 2px solid chocolate;
+}
+
+.checkbox{
+    display: flex;
+}
+#datos{
+    flex-direction: column;
+}
+
+#tito{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: cursive;
+
+}
+input{
+    border: none;
+    background-color:rgb(32, 46, 46) ;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+.img{
+    background: url(https://i0.wp.com/prensaescenario.com/wp-content/uploads/2023/03/image002.jpg?fit=777%2C777&ssl=1);
+    padding: 268.5px;
+    background-color: blue;
+    border: 2px solid greenyellow;
+}

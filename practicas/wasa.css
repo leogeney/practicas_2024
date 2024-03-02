@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+body{
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'ABeeZee', sans-serif;
+    background-size: cover;
+    background: url(https://images.unsplash.com/photo-1516528387618-afa90b13e000?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D);
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+.container{
+    background-color: rgba(37, 35, 35, 0.986);
+    width: 350px;
+    height: 400px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 36px -8px rgba(87,255,94,0.75);
+-webkit-box-shadow: 0px 0px 36px -8px rgba(87,255,94,0.75);
+-moz-box-shadow: 0px 0px 36px -8px rgba(87,255,94,0.75);
+}
+.titulo{
+    text-align: center;
+    font-size: 22px;
+    border-bottom: 2px solid white ;
+    box-shadow: 0px 11px 6px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 11px 6px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 11px 6px -8px rgba(0,0,0,0.75);
+}
+
+.medio{
+    margin-left: 120px;
+    margin-top: 30px;
+   
+}
+.abajo{
+    
+   
+    border-top: 2px solid white ;
+    box-shadow: 0px -12px 6px -8px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px -12px 6px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -12px 6px -8px rgba(0,0,0,0.75);
+ 
+}
+#iconos{
+    margin-left: 63px;
+    display: flex;
+    
+}
+i{
+    padding: 30px;
+    color: rgb(185, 255, 206);
+}
+
+#numero{
+    color: rgb(45, 216, 45);
+    margin-left: -10px;
+}
+
+#numero:hover{
+    color: brown;
+    transition: 2s;
+    cursor: pointer;
+}
